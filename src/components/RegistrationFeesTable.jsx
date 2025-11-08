@@ -8,7 +8,7 @@ const RegistrationFeesTable = () => {
       category: "Attendees (Author but not presenter)",
       fees: "One day: 500 INR",
     },
-    { category: "Attendees (Non-author)", fees: "INR" },
+    { category: "Attendees (Non-author)", fees: "One day: 750 INR , Two days: 1000 INR" },
   ];
 
   return (
