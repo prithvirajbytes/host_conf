@@ -51,6 +51,21 @@ const PaperSubmission = () => {
             </a>{" "}
           </div>{" "}
         </div>{" "}
+        <section
+          aria-labelledby="cmt-ack-title"
+          className="max-w-3xl mx-auto p-4 bg-gray-50 rounded-2xl shadow-sm"
+        >
+          <h3 id="cmt-ack-title" className="contact-heading sr-only">
+            CMT Acknowledgment
+          </h3>
+
+          <p className="font-semibold text-sm leading-relaxed text-gray-800">
+            The Microsoft CMT service was used for managing the peer-reviewing
+            process for this conference. This service was provided for free by
+            Microsoft and they bore all expenses, including costs for Azure
+            cloud services as well as for software development and support.
+          </p>
+        </section>
       </div>
     </section>
   );
