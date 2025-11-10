@@ -14,10 +14,10 @@ const PaperSubmission = () => {
             <h3 className="card-title">Important Dates</h3>{" "}
             <ul className="card-list">
               {" "}
-              <li>Paper Submission deadline: 30 Nov, 2025</li>{" "}
-              <li>Paper Acceptance Notification:10 Dec, 2025</li>{" "}
-              <li>Camera ready Paper Submission:20 Dec, 2025</li>{" "}
-              <li>Paper Registration Deadline:24 Dec, 2025</li>{" "}
+              <li>Paper Submission deadline: 10 Dec, 2025</li>{" "}
+              <li>Paper Acceptance Notification: 20 Dec, 2025</li>{" "}
+              <li>Camera ready Paper Submission: 30 Dec, 2025</li>{" "}
+              <li>Paper Registration Deadline: 03 Jan, 2026</li>{" "}
             </ul>{" "}
           </div>{" "}
         </div>{" "}
@@ -28,13 +28,13 @@ const PaperSubmission = () => {
             {" "}
             <h3 className="card-title">Submission Link</h3>{" "}
             <a
-              href="https://www.conference-submission-link.com"
+              href="#"
               target="_blank"
               rel="noopener noreferrer"
               className="card-link"
             >
               {" "}
-              ☞ Submit Your Paper Here{" "}
+              ☞ CMT Link will be coming shortly. ☜{" "}
             </a>{" "}
           </div>{" "}
           <div className="card">

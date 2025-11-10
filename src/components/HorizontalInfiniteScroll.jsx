@@ -4,7 +4,7 @@ import React from "react";
 // A smooth infinite scrolling text line (right to left)
 
 export default function HorizontalInfiniteScroll({
-  text = "Paper Submission deadline: 30 Nov, 2025      ☆      Paper Acceptance Notification:10 Dec, 2025     ☆     Camera ready Paper Submission:20 Dec, 2025     ☆     Paper Registration Deadline:24 Dec, 2025     ☆     ",
+  text = "Paper Submission deadline: 10 Dec, 2025      ☆      Paper Acceptance Notification: 20 Dec, 2025     ☆     Camera ready Paper Submission: 30 Dec, 2025     ☆     Paper Registration Deadline: 03 Jan, 2026     ☆     ",
   speed = 30, // smaller = faster
 }) {
   return (
