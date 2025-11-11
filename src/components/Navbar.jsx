@@ -49,7 +49,7 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a href="#cmtacknowledgement" onClick={() => setIsOpen(false)}>
+            <a href="/cmt-acknowledgement.html" onClick={() => setIsOpen(false)}>
               CMT Acknowledgment
             </a>
           </li>

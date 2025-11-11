@@ -9,7 +9,7 @@ import ConferenceTracks from "./components/ConferenceTracks";
 import Footer from "./components/Footer";
 import HorizontalInfiniteScroll from "./components/HorizontalInfiniteScroll";
 import RegistrationFeesTable from "./components/RegistrationFeesTable";
-import CMTAcknowledgement from "./components/CMTAcknowledgement";
+
 const App = () => {
   return (
     <>
@@ -24,9 +24,6 @@ const App = () => {
       </section>
       <section id="papersubmission" className="section">
         <PaperSubmission />
-      </section>
-      <section id="cmtacknowledgement" className="section">
-        <CMTAcknowledgement />
       </section>
       <section id="registrationfeestable" className="section">
         <RegistrationFeesTable />
