@@ -55,7 +55,7 @@ const PaperSubmission = () => {
           aria-labelledby="cmt-ack-title"
           className="max-w-3xl mx-auto p-4 bg-gray-50 rounded-2xl shadow-sm"
         >
-          <h3 id="cmt-ack-title" className="contact-heading sr-only">
+          <h3 id="cmt-ack-title" className="contact-heading font- bold">
             CMT Acknowledgment
           </h3>
 

@@ -49,6 +49,11 @@ const Navbar = () => {
             </a>
           </li>
           <li>
+            <a href="#papersubmission" onClick={() => setIsOpen(false)}>
+              CMT Acknowledgment
+            </a>
+          </li>
+          <li>
             <a href="#registrationfeestable" onClick={() => setIsOpen(false)}>
               Paper Registration
             </a>
