@@ -28,13 +28,15 @@ const PaperSubmission = () => {
             {" "}
             <h3 className="card-title">Submission Link</h3>{" "}
             <a
-              href="#"
+              href="https://cmt3.research.microsoft.com/DTDCFAC2026"
               target="_blank"
               rel="noopener noreferrer"
               className="card-link"
             >
               {" "}
-              ☞ CMT Link will be coming shortly. ☜{" "}
+              <span className="blinking-hand" aria-hidden="true">☞</span>
+              Submit Your Paper Here{" "}
+              <span className="blinking-hand" aria-hidden="true">☜</span>
             </a>{" "}
           </div>{" "}
           <div className="card">
@@ -47,7 +49,9 @@ const PaperSubmission = () => {
               className="card-link"
             >
               {" "}
-              ☞ Download Paper Template{" "}
+              <span className="blinking-hand" aria-hidden="true">☞</span>
+              Download Paper Template{" "}
+              <span className="blinking-hand" aria-hidden="true">☜</span>
             </a>{" "}
           </div>{" "}
         </div>{" "}
